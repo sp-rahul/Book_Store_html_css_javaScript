@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- navbar  -->
+    <div class="container">
+        <div class="topnav">
+            <img src="./image/book.png" alt="book">
+          
+            <i class="fa fa-shopping-cart" style="font-size:36px"></i>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  
+            </div>
+           
+           
+          </div>
+          
+          
+    </div>
+   
+
+    <!-- main container  -->
+    <div class="main">
+        <div class="filter-div three-div">
+            <p>Author</p>
+            <div id="authors">
+                
+            </div>
+        </div>
+        <div class="book-div three-div">
+            <p>All Book list...</p>
+            <div id="books">
+            </div>
+        </div>
+        <div class="cart-div three-div">
+            Your cart items
+            <div id="carts">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="bookScript.js"></script>
+</body>
+</html>
